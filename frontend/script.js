@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/api/tasks";
+const API = "https://todo-cwpx.onrender.com/api/tasks";
 
 async function fetchTasks() {
   const res = await fetch(API);
